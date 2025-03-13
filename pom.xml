@@ -122,7 +122,6 @@
                         </goals>
                     </execution>
                 </executions>
-            </plugin>
                 <configuration>
                     <storyType>html</storyType>
                     <storyReport>target/easyb/easyb.html</storyReport>
