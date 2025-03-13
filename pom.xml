@@ -124,7 +124,7 @@
                 </executions>
                 <configuration>
                     <storyType>html</storyType>
-                    <storyReport>target/easyb/easyb.html</storyReport>
+                    <storyReport>${project.build.directory}/easyb/easyb.html</storyReport>
                     <easybTestDirectory>src/test/stories</easybTestDirectory>
                     <jvmArguments>-Xmx512m -Dwebdriver.driver=${webdriver.driver}</jvmArguments>
                 </configuration>
